@@ -22,7 +22,7 @@ function Home() {
   return (
     <>
       <Box bg="lightgrey" w="100vw">
-        <Box bg="white" p="10" m="auto" h="100%" w="80%">
+        <Box bg="white" p="10" m="auto" minH="100vh" w="80%">
           <SearchBar onSearchPress={handleSearch} onChange={onKeyWordChange} />
           <Artists artists={artists} />
         </Box>
